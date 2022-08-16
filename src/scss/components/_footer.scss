@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5em;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      vertical-align: middle;
+      width: 25px;
+    }
+  }
+}

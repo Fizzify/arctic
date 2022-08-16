@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em 0;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin: 0.1em;
+    }
+  }
+
+  &__links {
+    display: flex;
+
+    &__item {
+      margin-left: 25px;
+    }
+  }
+}

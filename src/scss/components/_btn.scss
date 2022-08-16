@@ -1,0 +1,17 @@
+.btn {
+  background-color: hsl(209, 53%, 42%);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1em 2em;
+  font-size: 0.8rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: hsl(209, 58%, 31%);
+  }
+}

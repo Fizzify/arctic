@@ -1,0 +1,42 @@
+.information {
+  margin: 2em;
+  text-align: center;
+
+  &__heading {
+    font-size: 3rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  &__item {
+    padding: 2em;
+    margin: 1em;
+    background-color: hsl(0, 0%, 21%);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+
+    &__img {
+      width: 50px;
+    }
+
+    &__heading {
+      font-size: 2.5rem;
+    }
+
+    &__text {
+      margin-top: 1em;
+      color: hsl(0, 0%, 83%);
+    }
+
+    &:hover {
+      background-color: hsl(0, 0%, 36%);
+    }
+  }
+}
